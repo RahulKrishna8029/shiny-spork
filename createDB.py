@@ -6,9 +6,9 @@ from langchain.vectorstores.chroma import Chroma
 import os
 import shutil
 
-CHROMA_PATH = "/Users/grahulkrishna/Documents/chroma_path"
+CHROMA_PATH = "add your own path"
 DATA_PATH = "data"
-os.environ["OPENAI_API_KEY"]="sk-proj-9mIjwZ5gDObRMgyorP88T3BlbkFJ00mJkz87WBYRADp3YeY2"
+os.environ["OPENAI_API_KEY"]="your api key"
 
 
 def main():
