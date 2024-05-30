@@ -3,7 +3,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 
-CHROMA_PATH = "/Users/grahulkrishna/Documents/chroma_path"
+CHROMA_PATH = ""
 
 # Prompt template for summarization
 SUMMARIZATION_TEMPLATE = """
@@ -28,7 +28,7 @@ def main():
     query_text = input("Enter the query text: ")
 
     # Prepare the DB.
-    embedding_function = OpenAIEmbeddings(openai_api_key="sk-proj-9mIjwZ5gDObRMgyorP88T3BlbkFJ00mJkz87WBYRADp3YeY2")
+    embedding_function = OpenAIEmbeddings(openai_api_key="")
     db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
 
     # Search the DB for the relevant chunks.
@@ -38,7 +38,7 @@ def main():
         return
 
     # Summarize each chunk
-    summarization_model = ChatOpenAI(openai_api_key="sk-proj-9mIjwZ5gDObRMgyorP88T3BlbkFJ00mJkz87WBYRADp3YeY2")
+    summarization_model = ChatOpenAI(openai_api_key="")
     summarized_chunks = []
 
     for doc, score in results:
