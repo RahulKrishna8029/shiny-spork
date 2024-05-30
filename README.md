@@ -1,1 +1,6 @@
-# shiny-spork
+# Summarization and Text Generation using LLMs
+
+Documentation is crucial in software engineering, ensuring clarity, consistency, and effective communication within development teams. It guides code understanding, feature implementation, and system maintenance, making it essential for both current and future work. Refactoring, including minor changes like renaming variables or modifying documentation, significantly impacts project success and contributes to around 20% of maintenance costs. 
+Examples such as Facebook's transition from PHP to Hack and variable misnaming in Mozilla Firefox highlight the importance of effective refactoring. While typically associated with code, documentation refactoring is equally important.
+Our research emphasizes this by exploring the use of Large Language Models (LLMs) to restructure and enhance software documentation. Focusing on non-code artifacts like pull requests, data logs, commits, and markdown files, we conduct experiments using tools such as Langchain, OpenAI, and Chroma DB. These experiments aim to assess the feasibility of summarizing non-code artifacts and generating refined documentation. We analyze the results of two experiments to provide an initial evaluation of this approach, demonstrating the potential of LLMs in improving documentation practices in software engineering. 
+![solution-2](https://github.com/RahulKrishna8029/shiny-spork/assets/75737935/8ca22de7-a4b1-466c-b7c2-2d017cc022ca)
