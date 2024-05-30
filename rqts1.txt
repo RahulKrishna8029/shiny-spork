@@ -1,0 +1,10 @@
+langchain
+unstructured # Document loading
+chromadb # Vector storage
+openai # For embeddings
+tiktoken  # For embeddings
+pytest
+boto3
+pypdf
+unstructured[md]
+reportlib
