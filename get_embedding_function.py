@@ -2,7 +2,7 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 
 def get_embedding_function():
     # Replace with your OpenAI API key
-    openai_api_key = "sk-proj-9mIjwZ5gDObRMgyorP88T3BlbkFJ00mJkz87WBYRADp3YeY2"
+    openai_api_key = ""
 
     embeddings = OpenAIEmbeddings(
         api_key=openai_api_key,
