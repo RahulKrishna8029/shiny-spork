@@ -69,8 +69,8 @@ def main():
     # Example usage to print pull request titles
     for pr in stored_pull_requests:
         print(pr['title'])
-    pdf_directory = "/Users/grahulkrishna/Documents/pull_request_pdfs/"
-    markdown_directory = "/Users/grahulkrishna/Downloads/Summarizer as QA demo/venv/data"
+    pdf_directory = "user directory paths"
+    markdown_directory = "user directory paths"
 
     # Ensure the directories exist
     if not os.path.exists(pdf_directory):
